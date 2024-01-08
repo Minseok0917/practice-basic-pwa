@@ -9,6 +9,7 @@
       "sizes": "48x48 72x72 96x96 128x128 152x152 192x192 384x384 256x256 512x512"
     }
   ],
+  "id": "/practice-basic-pwa/",
   "start_url": "/practice-basic-pwa/",
   "display": "standalone",
   "background_color": "#FFFFFF",
