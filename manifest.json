@@ -3,12 +3,13 @@
   "short_name": "PWA Earth",
   "icons": [
     {
-      "src": "images/short_icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "images/short_icon-512x512.png",
+      "type": "image/png",
+      "purpose": "any",
+      "sizes": "48x48 72x72 96x96 128x128 152x152 192x192 384x384 256x256 512x512"
     }
   ],
-  "start_url": "https://minseok0917.github.io/practice-basic-pwa/",
+  "start_url": "/practice-basic-pwa/",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#FFFFFF",

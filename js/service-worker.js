@@ -8,6 +8,7 @@ const urlsToCache = [
   "/js/common.js",
   "/js/service-worker.js",
   "/images/short_icon-192x192.png",
+  "/images/short_icon-512x512.png",
 ];
 
 // 설치 단계에서 파일들을 캐시합니다.
