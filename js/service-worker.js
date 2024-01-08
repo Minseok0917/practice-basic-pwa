@@ -1,13 +1,12 @@
 // service-worker.js
 
 // 캐시할 파일들을 지정합니다.
-const CACHE_NAME = "v0.1.0";
+const CACHE_NAME = "v1";
 const urlsToCache = [
   "./",
   "./css/common.css",
   "./js/common.js",
   "./js/service-worker.js",
-  "./images/short_icon-192x192.png",
   "./images/short_icon-512x512.png",
 ];
 
@@ -49,7 +48,7 @@ self.addEventListener("fetch", (event) => {
 
 // 새 버전의 서비스 워커가 활성화되었을 때 오래된 캐시를 제거합니다.
 self.addEventListener("activate", (event) => {
-  var cacheWhitelist = ["v0.1.0"];
+  var cacheWhitelist = ["v1"];
 
   event.waitUntil(
     caches.keys().then((cacheNames) => {
