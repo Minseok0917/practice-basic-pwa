@@ -3,12 +3,12 @@
 // 캐시할 파일들을 지정합니다.
 const CACHE_NAME = "v0.1.0";
 const urlsToCache = [
-  "/",
-  "/css/common.css",
-  "/js/common.js",
-  "/js/service-worker.js",
-  "/images/short_icon-192x192.png",
-  "/images/short_icon-512x512.png",
+  "./",
+  "./css/common.css",
+  "./js/common.js",
+  "./js/service-worker.js",
+  "./images/short_icon-192x192.png",
+  "./images/short_icon-512x512.png",
 ];
 
 // 설치 단계에서 파일들을 캐시합니다.
